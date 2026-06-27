@@ -1,0 +1,66 @@
+p{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    /* font-size: 16px;
+    font-size: 1.1em;
+    font-size: 100%; */
+
+    font-size: 160%;
+    font-size: 1.6em;
+    font-size: 26px;
+
+    /* 16+160%=25,6 */
+
+    /* Espaço entre linhas */
+    line-height: 2;
+
+    /* identação do primeiro texto */
+    text-indent: 60px;
+
+    /* decoração */
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration: line-through;
+    text-decoration: none;
+
+    /* transformação do texto */
+    text-decoration: capitalize;
+    text-decoration: lowercase;
+    text-decoration: uppercase;
+
+    /* espaço entre letras */
+    letter-spacing: -2px;
+
+    /* espaço entre palavras */
+    word-spacing: 6em;
+
+    font-weight: bold;
+}
+
+a{
+    text-decoration: none;
+    color: #000;
+}
+
+h1{
+    font-family: "Montserrat", sans-serif;
+    font-style: italic;
+    /* alinhamento do texto */
+    text-align: center;
+    text-align: right;
+    text-align: justify;
+}
+
+#italico{
+    font-style: italic;
+}
+
+@font-face{
+    font-family:minhaFonte;
+    src: url('../fonts/PlaywriteNZ-VariableFont_wght.ttf');
+}
+
+h3{
+    font-family: 'minhaFonte', cursive;
+}

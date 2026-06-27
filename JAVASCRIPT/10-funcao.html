@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Função</title>
+</head>
+<body>
+    <script>
+        // Função
+        // Uma função é um bloco de código que pode ser chamado e executado em qualquer parte do programa
+
+        // function saudacao() {
+        //     console.log('Olá, seja bem-vindo!');
+        // }
+
+        // saudacao(); // chamando a função
+
+        // function soma(a, b) {
+        //     return a + b;
+        // }
+
+        // let resultado = soma(5, 10);
+        // console.log(resultado);
+
+        // function multiplicacao(a, b) {
+        //     return a * b;
+        // }
+
+        // let resultadoMultiplicacao = multiplicacao(5, 10);
+        // console.log(resultadoMultiplicacao);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        // Atividade
+
+        //pedir para o usuario o tipo de calculo que ele quer fazer
+        //(+, -, *,/)
+
+        //pedir o primeiro numrero
+        //pedir o segundo numero
+        //e mostrar o resultado
+
+        //criar função para soma, divisão,subtração e multiplicação
+
+        let operacao = prompt('Digite a operação que deseja realizar (+, -, *, /):');
+        let num1 = parseFloat(prompt('Digite o primeiro número:'));
+        let num2 = parseFloat(prompt('Digite o segundo número:'));
+
+        function calcular(operacao, num1, num2) {
+            if (operacao === '+') {
+                return num1 + num2;
+            } else if (operacao === '-') {
+                return num1 - num2;
+            } else if (operacao === '*') {
+                return num1 * num2;
+            } else if (operacao === '/') {
+                return num1 / num2;
+            } else {
+                return 'Operação inválida!';
+            }
+        }
+
+        let resultado = calcular(operacao, num1, num2);
+        document.write('O resultado é: ' + resultado);
+    </script>
+</body>
+</html>

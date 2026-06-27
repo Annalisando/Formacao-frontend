@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    margin: 30px;
+    padding: 30px;
+    /* background: red;  */
+
+    box-shadow: 10px 10px 15px #999;
+    /* box-shadow:inset 10px 10px 15px #999; */
+    /* 
+    Primeiro parametro - sombra lateral
+    Segundo parametro - sombra (baixo ou cima)
+    Terceiro parametro - blur (intencidade da borda)
+    Quarto parametro - cor da borda
+    */
+}
+
+div:hover{
+    box-shadow: 10px 10px 30px #999;
+
+    /* hover - quando quer alterar algo que ja existe, ao passar o mouse da um relevo, trocar a cor */
+}
+
+h1{
+    color: #c71616;
+    text-shadow: -3px 15px 0px #1c1c1c;
+}
+
+p{
+    margin-top: 20px;
+}

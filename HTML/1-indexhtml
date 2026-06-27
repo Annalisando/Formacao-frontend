@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <style>
+    #titulo {
+      font-size: 3.5rem;
+      color: rgb(233, 168, 29);
+    }
+
+    img {
+      width: 100%;
+    }
+  </style>
+
+</head>
+
+<body>
+  <div atributo="nomeDoAtributo">
+    <h1 id="titulo" style="">Olá mundo!</h1>
+    <h2 atributo="subtitulo">Hello word!</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      Architecto, nisi tempora incidunt recusandae quae voluptates
+      mollitia saepe delectus tempore consectetur amet quo, dolore
+      explicabo dicta obcaecati dolores! Dolorum, consectetur! Laborum.</p>
+
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRyHCW1Uw5t2nTLwa6BhMx4RFE2heuXSox3Yw&s" />
+  </div>
+  <div>
+    <h2>titulo</h2>
+    <img />
+  </div>
+</body>
+
+
+</html>

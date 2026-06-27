@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.curriculo {
+    width: 100%;
+    max-width: 900px;
+    min-height: 1200px;
+    display: flex;
+    background: white;
+}
+
+.lado-esquerdo {
+    width: 35%;
+    background: #adadad;
+    padding: 50px 35px;
+}
+
+.lado-esquerdo img {
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.lado-esquerdo h4 {
+    margin-top: 35px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.lado-esquerdo p {
+    margin-bottom: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.lado-direito {
+    width: 65%;
+    padding: 60px 50px;
+}
+
+.lado-direito h1 {
+    font-size: 60px;
+    margin-bottom: 60px;
+    line-height: 1.1;
+}
+
+.lado-direito h4 {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.lado-direito p {
+    font-size: 14px;
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.experiencia {
+    margin-top: 50px;
+}
+
+.fun{
+    color: #535151;
+}
+
+.contato {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.contato i{
+      color: #000000;
+}
+
+.contato p {
+    margin: 0;
+}
+
+/* CELULAR */
+@media (max-width: 768px) {
+
+    body {
+        padding: 10px;
+    }
+
+    .curriculo {
+        flex-direction: column;
+        min-height: auto;
+    }
+
+    .lado-esquerdo,
+    .lado-direito {
+        width: 100%;
+    }
+
+    .lado-esquerdo {
+        padding: 30px 20px;
+    }
+
+    .lado-direito {
+        padding: 30px 20px;
+    }
+
+    .lado-esquerdo img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .lado-direito h1 {
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    .lado-direito h4,
+    .lado-esquerdo h4 {
+        font-size: 15px;
+    }
+
+    .lado-direito p,
+    .lado-esquerdo p {
+        font-size: 13px;
+    }
+
+    .experiencia {
+        margin-top: 30px;
+    }
+}
+
+/* TABLET */
+@media (min-width: 769px) and (max-width: 1023px) {
+
+    .curriculo {
+        width: 100%;
+    }
+
+    .lado-esquerdo {
+        padding: 40px 25px;
+    }
+
+    .lado-direito {
+        padding: 40px 30px;
+    }
+
+    .lado-direito h1 {
+        font-size: 45px;
+    }
+}

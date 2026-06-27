@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Condicionais</title>
+
+</head>
+
+<body>
+
+    <script>
+        let idade = 17;
+        let cnh = false;
+
+        if (idade >= 18) {
+            console.log('Você pode dirigir');
+        } else {
+            console.log('Você não pode dirigir');
+        }
+
+        console.log('---fim---');
+
+        if (idade >= 18) {
+            if (cnh == true) {
+                console.log('Você é maior de idade e tem cnh e pode dirigir')
+            } else {
+                console.log('Você é maior de idade mas não tem cnh e não pode dirigir')
+            }
+        } else {
+            console.log('Você é menor de idade e não pode dirigir');
+        }
+
+        let nota = 6;
+        if (nota >= 7) {
+            console.log('Aprovado')
+        } else if (nota >= 5) {
+            console.log('Recuperação')
+        } else {
+            console.log('Reprovado')
+        }
+
+        // Atividade
+
+        // nota1
+        // nota2
+        // nota3
+        // calculo da media
+
+        // media >=7 (aprovado)
+        // media >=5 (recuperação)
+        // se nada for verdadeiro (reprovado)
+
+        let nota1 = parseInt(prompt("Digite a primeira nota:"));
+        let nota2 = parseInt(prompt("Digite a segunda nota:"));
+        let nota3 = parseInt(prompt("Digite a terceira nota:"));
+
+        let media = (nota1 + nota2 + nota3) / 3;
+
+        console.log("Média: " + media.toFixed(2));
+
+        if (media >= 7) {
+            console.log("Aprovado");
+        } else if (media >= 5) {
+            console.log("Recuperação");
+        } else {
+            console.log("Reprovado");
+        }
+
+
+    </script>
+
+</body>
+
+</html>

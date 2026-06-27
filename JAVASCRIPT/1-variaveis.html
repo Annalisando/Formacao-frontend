@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variaveis</title>
+</head>
+<body>
+
+    <script>
+        var nomeSobrenome= "Sanches"
+
+        var nome ="Anna"
+
+        // alert(nome)
+
+        console.log(nome);
+
+        // number
+
+        var idade = 35;
+        
+        var salario = 15000.00;
+
+        var moto = prompt('Digite um nome de moto');
+        console.log(moto);
+
+        console.log(typeof moto); 
+
+        // comentario em linha
+
+        /*comentario de linhas 
+        linhas
+        linhas*/
+
+        var verdadeiro = true;
+        var falso = false;
+
+        console.log(typeof verdadeiro);
+
+        var nome1 = 'João';
+        console.log(nome1);
+
+        var nome1= 'Maria';
+        console.log(nome1);
+
+        // let - Variaveis declaradas como let tem escopo de bloco
+        // podem ser atualizadas, mas não pódem ser declaradas novamente
+        // foram criadas posteriormente ao var para evitar erros
+        let nome2 ='Romeu';
+        console.log(nome2);
+
+       nome2 = 'Julieta'
+
+       // const - constantes (o valor não pode ser alterado)
+       const variavelConts = 5;  
+       console.log(variavelConts);
+        // variavelConts = 6;     
+        // console.log(variavelConts)
+
+        // Undefind - variavel declarada, mas não atribuida a um valor
+        let endereco;
+        conole.log(endereco);
+
+        // Null - ausencia intencional de valor
+        let telefone = null;
+        conole.log(telefone);
+
+
+        // concatenar
+        let nome3 ="Anna";
+        let sobrenome3 = "Sanches";
+        let resultado = nome3 + ' ' +  sobrenome3;
+        console.log(resultado);
+        console.log('Olá' + nome3 + ' ' +  sobrenome3 + 'seja bem vindo!');
+        
+        let  resultado2 = 'Olá ${nome3} ${sobrenome3}, seja bem vindo!';
+
+        console.log(resultado2)
+    </script>
+    
+</body>
+</html>
